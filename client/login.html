@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="join">
+            <h1>JOIN Chat</h1>
+            <form action="index.html" id="form">
+                <div class="grp-name inp">
+                    <label for="room">Group Name :</label>
+                    <input required type="text" name="room" id="join-inp">
+                </div>
+                <div class="user-name inp">
+                    <label for="name"> Name :</label>
+                    <input required type="text" name="name" id="name-inp">
+                </div>
+                <div class="user-id inp">
+                    <label for="id">Id :</label>
+                    <input required type="text" name="id" id="id-inp">
+                </div>
+                    
+                <div class="submit">
+                    <button type="submit" id="submit">Join Chat</button>
+                </div>
+            </form>
+
+        </div>
+        <!-- <div class="create">
+
+        </div> -->
+    </div>
+    <div class="pop">
+        <p id="pop"><span class="tick"></span> Loggin successfully</p>
+    </div>
+    <script type="module" src="login.js"></script>
+</body>
+</html>

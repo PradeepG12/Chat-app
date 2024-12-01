@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.13.1/qs.min.js" integrity="sha512-dOI8+lI91wsLJEMBQcZBvatYrawv84SrgkRF/6sIcjhYXgANOvOEkBtCSf/ZkdZ7Mw0u+VUxDgalDZA1qKWTFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="information">
+            <div class="group-title">Group Name : <input type="text" id="grp-title" readonly></div>
+            <div class="group-mem">Group Members : <div class="user-list"></div></div>
+        </div>
+
+        <div class="chatting">
+            <div class="leave-btn">
+               <a href="login.html"> Leave chat</a></div>
+            <div class="chat-msg-area" id="msg-content">
+                <!-- <div class="msg-container">
+                    <p class="text-details"><span class="user-id">Pradeep</span><span class="time">5.00 pm</span></p>
+                    <p class="text-data">Hi guys , Welcome</p>
+                </div> -->
+            </div>
+            
+            <form class="text-area">
+                <input type="text" id="msg-inp" required placeholder="Type a message...">
+                <button type="submit" id="msg-send">Send</button>
+            </form>
+        </div>        
+    </div>
+        
+    <script src="client.js" type="module"></script>
+</body>
+</html>

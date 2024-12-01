@@ -1,0 +1,59 @@
+p{
+    margin: 0;
+}
+h1{
+    margin: 0%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+.join{
+    margin-top: 20vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    background-color: rgb(66, 62, 62);
+}
+#form .inp{
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:min(100px,80%) 1fr;
+}
+ 
+input{
+    height: 20px;
+    margin-bottom: 10px;
+}
+.submit{
+    margin-top: 2em;
+}
+button#submit{
+    cursor: pointer;
+    height: 40px;
+    width: 103.6%;
+    margin: auto;
+    padding: auto;
+}
+.pop #pop{
+    font-size: 25px;
+    position: absolute;
+    top: 10vh;
+    left: 34vw;
+    color: green;
+    display: none;
+}
+a{
+    text-decoration: none;
+    all: unset;
+}
